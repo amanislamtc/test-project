@@ -1,19 +1,31 @@
+    * {
+  margin: 2px;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+
+
 .blog
         {
             background-image: url('https://images.unsplash.com/photo-1593161499316-0cd67918ab6a?q=80&w=1602&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
             color: white;
-            padding: 10px;
-            margin: 10px 0;
+            margin: 10px;
             text-align: center;
-            margin: 15px;
+            width: 100%;
         }
-       
+        
+
         .bullet {
             display: inline-block;
-            padding: 5px 10px;
             margin-right: 5px;
             border: 2px solid white;
-            birder-radius: 5px;
+            border-radius: 5px;
         }
         #mainpg {
             margin-top: 20px;
@@ -22,7 +34,7 @@
             margin-top: 20px;
             color: blueviolet;
         }
-        #socials a {
+        #socials {
             color: blueviolet;
             text-decoration: none;
         }
@@ -34,30 +46,38 @@
             margin-left: 20px;
         }
 
-        .about {
-            display: inline-block
-            margin-top: 20px;
-            padding: 10px;
+        /* .about {
+            display: inline-block;
             background-color: black;
             color: white;
             border-radius: 5px;
             text-align: center;
-            display: inline-block;
-            border: 10px solid white;
-        }
+            border: 1px solid white;
+            width: 100%;
+        } */
+
+        .about {
+  display: block;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  border: 10px solid white;
+  width: 100%;
+  margin: 10px auto;
+}
     .list{
         display: inline-block;
         text-align: center;
-        border: 1px solid white;
-        padding: 10px 10px;
-        margin: 2px;
+        border: 1px solid black;
+        padding: 10px;
+        margin: 3px;
     }
     .projects
     {
         display: inline-block;
         text-align: center;
-        border: 1px solid white;
-        padding: 10px 10px;
+            border: 1px solid white;
         margin: 2px;
         background-color: black;
         color: white;
@@ -67,7 +87,6 @@
             display: inline-block;
             text-align: center;
             border: 1px solid white;
-            padding: 10px 10px;
             margin: 2px;
             background-color: black;
             color: white;
@@ -75,3 +94,12 @@
             width: 100%;
         }
 
+        .head-menu {
+            background-color: black;
+            color: white;
+            text-align: center;
+            width: 100%;
+            padding: 5px;
+            position: relative;
+            
+                }
